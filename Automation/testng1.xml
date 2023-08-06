@@ -1,0 +1,15 @@
+<suite name="Suite">
+	<group>
+		<run>
+			<include name = "RegressionTest"/>
+			<include name = "smokeTest"/>
+		</run>
+	</group>
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.actitimetestscript.TaskModule1"/>
+      <class name="com.actitimetestscript.CustomerModule1"/>
+      <class name="com.actitimetestscript.ProjectModule1"/>
+    </classes>
+  </test>
+</suite> 

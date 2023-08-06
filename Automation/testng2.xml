@@ -1,0 +1,16 @@
+
+<suite name="Suite">
+	<groups>
+		<run>
+			<include name = "regressionTest"/>
+			<include name="smokeTest"/>
+		</run>
+	</groups>
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.actitimetestscript.TaskModule1"/>
+      <class name="com.actitimetestscript.CustomerModule1"/>
+      <class name="com.actitimetestscript.ProjectModule1"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
