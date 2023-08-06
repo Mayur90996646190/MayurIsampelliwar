@@ -1,0 +1,17 @@
+package part2;
+public class Employee
+{
+	
+}
+
+public class EmployeeDriver {
+	public static void main(String[] args) {
+		Employee a = { new Employee() ,new Employee(),new Employee()};
+		for(int i=0; i<a.length;i++)
+		{
+			System.out.println(a[i]);
+		}
+		
+	}
+
+}
